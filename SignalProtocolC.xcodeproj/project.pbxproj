@@ -10,16 +10,16 @@
 		DE3638592224DB53000472D5 /* SignalProtocolC.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638572224DB53000472D5 /* SignalProtocolC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3639132224DC9D000472D5 /* ratchet.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638622224DC9A000472D5 /* ratchet.c */; };
 		DE3639142224DC9D000472D5 /* WhisperTextProtocol.pb-c.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638632224DC9A000472D5 /* WhisperTextProtocol.pb-c.c */; };
-		DE3639152224DC9D000472D5 /* signal_protocol_types.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638642224DC9A000472D5 /* signal_protocol_types.h */; };
+		DE3639152224DC9D000472D5 /* signal_protocol_types.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638642224DC9A000472D5 /* signal_protocol_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3639162224DC9D000472D5 /* group_cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638652224DC9A000472D5 /* group_cipher.c */; };
 		DE3639172224DC9D000472D5 /* session_record.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638662224DC9A000472D5 /* session_record.c */; };
 		DE3639182224DC9D000472D5 /* utarray.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638672224DC9A000472D5 /* utarray.h */; };
-		DE3639192224DC9D000472D5 /* sender_key.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638682224DC9A000472D5 /* sender_key.h */; };
+		DE3639192224DC9D000472D5 /* sender_key.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638682224DC9A000472D5 /* sender_key.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE36391A2224DC9D000472D5 /* sender_key.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638692224DC9A000472D5 /* sender_key.c */; };
 		DE36391B2224DC9D000472D5 /* hkdf.c in Sources */ = {isa = PBXBuildFile; fileRef = DE36386A2224DC9A000472D5 /* hkdf.c */; };
 		DE36391C2224DC9D000472D5 /* group_session_builder.c in Sources */ = {isa = PBXBuildFile; fileRef = DE36386B2224DC9A000472D5 /* group_session_builder.c */; };
 		DE36391D2224DC9D000472D5 /* uthash.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36386C2224DC9A000472D5 /* uthash.h */; };
-		DE36391E2224DC9D000472D5 /* protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36386D2224DC9A000472D5 /* protocol.h */; };
+		DE36391E2224DC9D000472D5 /* protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36386D2224DC9A000472D5 /* protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE36391F2224DC9D000472D5 /* curve25519-donna.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36386F2224DC9A000472D5 /* curve25519-donna.h */; };
 		DE3639212224DC9D000472D5 /* curve25519-donna.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638712224DC9A000472D5 /* curve25519-donna.c */; };
 		DE3639222224DC9D000472D5 /* ge_msub.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638732224DC9A000472D5 /* ge_msub.c */; };
@@ -136,45 +136,45 @@
 		DE3639922224DC9D000472D5 /* protobuf-c.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638E92224DC9A000472D5 /* protobuf-c.c */; };
 		DE3639932224DC9D000472D5 /* FingerprintProtocol.pb-c.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638EA2224DC9A000472D5 /* FingerprintProtocol.pb-c.h */; };
 		DE3639942224DC9D000472D5 /* signal_utarray.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638EB2224DC9A000472D5 /* signal_utarray.h */; };
-		DE3639952224DC9D000472D5 /* group_cipher.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638EC2224DC9A000472D5 /* group_cipher.h */; };
+		DE3639952224DC9D000472D5 /* group_cipher.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638EC2224DC9A000472D5 /* group_cipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3639962224DC9D000472D5 /* sender_key_record.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638ED2224DC9A000472D5 /* sender_key_record.c */; };
 		DE3639972224DC9D000472D5 /* device_consistency.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638EE2224DC9A000472D5 /* device_consistency.c */; };
 		DE3639982224DC9D000472D5 /* signal_protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638EF2224DC9B000472D5 /* signal_protocol.c */; };
-		DE3639992224DC9D000472D5 /* sender_key_state.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638F02224DC9B000472D5 /* sender_key_state.h */; };
+		DE3639992224DC9D000472D5 /* sender_key_state.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638F02224DC9B000472D5 /* sender_key_state.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE36399A2224DC9D000472D5 /* FingerprintProtocol.pb-c.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638F12224DC9B000472D5 /* FingerprintProtocol.pb-c.c */; };
-		DE36399B2224DC9D000472D5 /* session_record.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638F22224DC9B000472D5 /* session_record.h */; };
+		DE36399B2224DC9D000472D5 /* session_record.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638F22224DC9B000472D5 /* session_record.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE36399C2224DC9D000472D5 /* LocalStorageProtocol.pb-c.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638F32224DC9B000472D5 /* LocalStorageProtocol.pb-c.c */; };
 		DE36399D2224DC9D000472D5 /* protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638F42224DC9B000472D5 /* protocol.c */; };
 		DE36399E2224DC9D000472D5 /* signal_protocol_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638F52224DC9B000472D5 /* signal_protocol_internal.h */; };
-		DE36399F2224DC9D000472D5 /* group_session_builder.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638F62224DC9B000472D5 /* group_session_builder.h */; };
+		DE36399F2224DC9D000472D5 /* group_session_builder.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638F62224DC9B000472D5 /* group_session_builder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3639A02224DC9D000472D5 /* libsignal-protocol-c.pc.in in Resources */ = {isa = PBXBuildFile; fileRef = DE3638F72224DC9B000472D5 /* libsignal-protocol-c.pc.in */; };
 		DE3639A12224DC9D000472D5 /* vpool.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638F82224DC9B000472D5 /* vpool.c */; };
-		DE3639A22224DC9D000472D5 /* session_state.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638F92224DC9B000472D5 /* session_state.h */; };
+		DE3639A22224DC9D000472D5 /* session_state.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638F92224DC9B000472D5 /* session_state.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3639A32224DC9D000472D5 /* WhisperTextProtocol.pb-c.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638FA2224DC9B000472D5 /* WhisperTextProtocol.pb-c.h */; };
 		DE3639A42224DC9D000472D5 /* session_pre_key.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638FB2224DC9B000472D5 /* session_pre_key.c */; };
-		DE3639A52224DC9D000472D5 /* session_builder.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638FC2224DC9B000472D5 /* session_builder.h */; };
-		DE3639A62224DC9D000472D5 /* sender_key_record.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638FD2224DC9B000472D5 /* sender_key_record.h */; };
+		DE3639A52224DC9D000472D5 /* session_builder.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638FC2224DC9B000472D5 /* session_builder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE3639A62224DC9D000472D5 /* sender_key_record.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638FD2224DC9B000472D5 /* sender_key_record.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3639A72224DC9D000472D5 /* session_builder_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3638FE2224DC9B000472D5 /* session_builder_internal.h */; };
 		DE3639A82224DC9D000472D5 /* session_state.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3638FF2224DC9B000472D5 /* session_state.c */; };
 		DE3639A92224DC9D000472D5 /* fingerprint.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3639002224DC9B000472D5 /* fingerprint.c */; };
-		DE3639AA2224DC9D000472D5 /* key_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639012224DC9B000472D5 /* key_helper.h */; };
-		DE3639AB2224DC9D000472D5 /* signal_protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639022224DC9C000472D5 /* signal_protocol.h */; };
+		DE3639AA2224DC9D000472D5 /* key_helper.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639012224DC9B000472D5 /* key_helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE3639AB2224DC9D000472D5 /* signal_protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639022224DC9C000472D5 /* signal_protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3639AC2224DC9D000472D5 /* session_cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3639032224DC9C000472D5 /* session_cipher.c */; };
 		DE3639AD2224DC9D000472D5 /* utlist.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639042224DC9C000472D5 /* utlist.h */; };
 		DE3639AE2224DC9D000472D5 /* device_consistency.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639052224DC9C000472D5 /* device_consistency.h */; };
-		DE3639AF2224DC9D000472D5 /* ratchet.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639062224DC9C000472D5 /* ratchet.h */; };
-		DE3639B02224DC9D000472D5 /* fingerprint.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639072224DC9C000472D5 /* fingerprint.h */; };
+		DE3639AF2224DC9D000472D5 /* ratchet.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639062224DC9C000472D5 /* ratchet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE3639B02224DC9D000472D5 /* fingerprint.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639072224DC9C000472D5 /* fingerprint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3639B22224DC9D000472D5 /* curve.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3639092224DC9C000472D5 /* curve.c */; };
-		DE3639B32224DC9D000472D5 /* curve.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36390A2224DC9C000472D5 /* curve.h */; };
+		DE3639B32224DC9D000472D5 /* curve.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36390A2224DC9C000472D5 /* curve.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3639B42224DC9D000472D5 /* key_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = DE36390B2224DC9C000472D5 /* key_helper.c */; };
-		DE3639B52224DC9D000472D5 /* session_pre_key.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36390C2224DC9C000472D5 /* session_pre_key.h */; };
-		DE3639B62224DC9D000472D5 /* session_cipher.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36390D2224DC9C000472D5 /* session_cipher.h */; };
+		DE3639B52224DC9D000472D5 /* session_pre_key.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36390C2224DC9C000472D5 /* session_pre_key.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE3639B62224DC9D000472D5 /* session_cipher.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36390D2224DC9C000472D5 /* session_cipher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3639B72224DC9D000472D5 /* LocalStorageProtocol.pb-c.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36390E2224DC9C000472D5 /* LocalStorageProtocol.pb-c.h */; };
-		DE3639B82224DC9D000472D5 /* hkdf.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36390F2224DC9C000472D5 /* hkdf.h */; };
+		DE3639B82224DC9D000472D5 /* hkdf.h in Headers */ = {isa = PBXBuildFile; fileRef = DE36390F2224DC9C000472D5 /* hkdf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3639B92224DC9D000472D5 /* session_builder.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3639102224DC9C000472D5 /* session_builder.c */; };
 		DE3639BA2224DC9D000472D5 /* vpool.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639112224DC9D000472D5 /* vpool.h */; };
 		DE3639BB2224DC9D000472D5 /* sender_key_state.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3639122224DC9D000472D5 /* sender_key_state.c */; };
-		DE3639BF2224E2B2000472D5 /* setup.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639BC2224E2B2000472D5 /* setup.h */; };
+		DE3639BF2224E2B2000472D5 /* setup.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3639BC2224E2B2000472D5 /* setup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE3639C02224E2B2000472D5 /* crypto_provider.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3639BD2224E2B2000472D5 /* crypto_provider.c */; };
 		DE3639C12224E2B2000472D5 /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = DE3639BE2224E2B2000472D5 /* setup.c */; };
 /* End PBXBuildFile section */
@@ -646,6 +646,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE36391E2224DC9D000472D5 /* protocol.h in Headers */,
+				DE3639992224DC9D000472D5 /* sender_key_state.h in Headers */,
+				DE3639AA2224DC9D000472D5 /* key_helper.h in Headers */,
+				DE3639192224DC9D000472D5 /* sender_key.h in Headers */,
+				DE3639B52224DC9D000472D5 /* session_pre_key.h in Headers */,
+				DE3639AB2224DC9D000472D5 /* signal_protocol.h in Headers */,
+				DE3639B32224DC9D000472D5 /* curve.h in Headers */,
+				DE36399B2224DC9D000472D5 /* session_record.h in Headers */,
+				DE3639A62224DC9D000472D5 /* sender_key_record.h in Headers */,
+				DE3639952224DC9D000472D5 /* group_cipher.h in Headers */,
+				DE3639B82224DC9D000472D5 /* hkdf.h in Headers */,
+				DE3639AF2224DC9D000472D5 /* ratchet.h in Headers */,
+				DE3639A22224DC9D000472D5 /* session_state.h in Headers */,
+				DE3639152224DC9D000472D5 /* signal_protocol_types.h in Headers */,
+				DE36399F2224DC9D000472D5 /* group_session_builder.h in Headers */,
+				DE3639B62224DC9D000472D5 /* session_cipher.h in Headers */,
+				DE3639B02224DC9D000472D5 /* fingerprint.h in Headers */,
+				DE3639A52224DC9D000472D5 /* session_builder.h in Headers */,
+				DE3639BF2224E2B2000472D5 /* setup.h in Headers */,
 				DE3639462224DC9D000472D5 /* gen_x.h in Headers */,
 				DE3639802224DC9D000472D5 /* crypto_uint32.h in Headers */,
 				DE3639182224DC9D000472D5 /* utarray.h in Headers */,
@@ -655,32 +674,22 @@
 				DE36396A2224DC9D000472D5 /* d2.h in Headers */,
 				DE36392B2224DC9D000472D5 /* ge_sub.h in Headers */,
 				DE36393E2224DC9D000472D5 /* gen_constants.h in Headers */,
-				DE3639A52224DC9D000472D5 /* session_builder.h in Headers */,
 				DE3639A32224DC9D000472D5 /* WhisperTextProtocol.pb-c.h in Headers */,
-				DE3639B02224DC9D000472D5 /* fingerprint.h in Headers */,
-				DE3639AA2224DC9D000472D5 /* key_helper.h in Headers */,
 				DE3639422224DC9D000472D5 /* gen_crypto_additions.h in Headers */,
 				DE3639822224DC9D000472D5 /* crypto_sign.h in Headers */,
-				DE3639B62224DC9D000472D5 /* session_cipher.h in Headers */,
 				DE36399E2224DC9D000472D5 /* signal_protocol_internal.h in Headers */,
 				DE3639BA2224DC9D000472D5 /* vpool.h in Headers */,
 				DE36396C2224DC9D000472D5 /* ge_madd.h in Headers */,
-				DE36399F2224DC9D000472D5 /* group_session_builder.h in Headers */,
 				DE3639B72224DC9D000472D5 /* LocalStorageProtocol.pb-c.h in Headers */,
 				DE3639812224DC9D000472D5 /* crypto_int32.h in Headers */,
-				DE3639152224DC9D000472D5 /* signal_protocol_types.h in Headers */,
 				DE3639852224DC9D000472D5 /* crypto_uint64.h in Headers */,
-				DE3639992224DC9D000472D5 /* sender_key_state.h in Headers */,
 				DE36391D2224DC9D000472D5 /* uthash.h in Headers */,
-				DE3639A22224DC9D000472D5 /* session_state.h in Headers */,
 				DE3639652224DC9D000472D5 /* internal_slow_tests.h in Headers */,
 				DE3639402224DC9D000472D5 /* gen_eddsa.h in Headers */,
 				DE36397A2224DC9D000472D5 /* ge_p2_dbl.h in Headers */,
 				DE36396D2224DC9D000472D5 /* ge_msub.h in Headers */,
 				DE3639A72224DC9D000472D5 /* session_builder_internal.h in Headers */,
-				DE3639AF2224DC9D000472D5 /* ratchet.h in Headers */,
 				DE3639AD2224DC9D000472D5 /* utlist.h in Headers */,
-				DE3639B82224DC9D000472D5 /* hkdf.h in Headers */,
 				DE3639512224DC9D000472D5 /* keygen.h in Headers */,
 				DE3639742224DC9D000472D5 /* fe.h in Headers */,
 				DE36392D2224DC9D000472D5 /* pow225521.h in Headers */,
@@ -689,7 +698,6 @@
 				DE36391F2224DC9D000472D5 /* curve25519-donna.h in Headers */,
 				DE36397B2224DC9D000472D5 /* d.h in Headers */,
 				DE3639942224DC9D000472D5 /* signal_utarray.h in Headers */,
-				DE3639B52224DC9D000472D5 /* session_pre_key.h in Headers */,
 				DE3639782224DC9D000472D5 /* pow22523.h in Headers */,
 				DE3639492224DC9D000472D5 /* gen_labelset.h in Headers */,
 				DE3639562224DC9D000472D5 /* curve_sigs.h in Headers */,
@@ -697,26 +705,18 @@
 				DE3639AE2224DC9D000472D5 /* device_consistency.h in Headers */,
 				DE3639862224DC9D000472D5 /* crypto_sign_edwards25519sha512batch.h in Headers */,
 				DE36395D2224DC9D000472D5 /* crypto_additions.h in Headers */,
-				DE3639AB2224DC9D000472D5 /* signal_protocol.h in Headers */,
-				DE3639B32224DC9D000472D5 /* curve.h in Headers */,
 				DE3639842224DC9D000472D5 /* crypto_int64.h in Headers */,
-				DE36399B2224DC9D000472D5 /* session_record.h in Headers */,
 				DE3639642224DC9D000472D5 /* internal_fast_tests.h in Headers */,
 				DE36398B2224DC9D000472D5 /* base2.h in Headers */,
 				DE36392F2224DC9D000472D5 /* ge_add.h in Headers */,
 				DE36397E2224DC9D000472D5 /* sc.h in Headers */,
 				DE3639832224DC9D000472D5 /* crypto_verify_32.h in Headers */,
-				DE36391E2224DC9D000472D5 /* protocol.h in Headers */,
 				DE3639932224DC9D000472D5 /* FingerprintProtocol.pb-c.h in Headers */,
 				DE3639452224DC9D000472D5 /* gen_veddsa.h in Headers */,
 				DE3639242224DC9D000472D5 /* sqrtm1.h in Headers */,
 				DE3639532224DC9D000472D5 /* compare.h in Headers */,
-				DE3639A62224DC9D000472D5 /* sender_key_record.h in Headers */,
 				DE36397F2224DC9D000472D5 /* ge.h in Headers */,
-				DE3639192224DC9D000472D5 /* sender_key.h in Headers */,
 				DE3639912224DC9D000472D5 /* protobuf-c.h in Headers */,
-				DE3639BF2224E2B2000472D5 /* setup.h in Headers */,
-				DE3639952224DC9D000472D5 /* group_cipher.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
