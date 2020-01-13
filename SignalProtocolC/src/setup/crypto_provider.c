@@ -8,7 +8,7 @@
 
 #include "setup.h"
 
-#include <SignalProtocolC/signal_protocol.h>
+#include <signal_protocol.h>
 
 #include <CommonCrypto/CommonDigest.h>
 #include <CommonCrypto/CommonHMAC.h>
